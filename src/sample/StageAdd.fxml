@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAdd">
+   <children>
+      <Rectangle fill="#9b9b9b" height="335.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <Rectangle fill="#312935" height="45.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+      <TextField floatText="Indtast stregkode" layoutX="84.0" layoutY="54.0" maxLength="13" AnchorPane.leftAnchor="84.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="54.0" />
+      <DatePicker layoutX="71.0" layoutY="123.0" />
+      <Label layoutX="14.0" layoutY="14.0" text="Tilføj fødevarer" textFill="WHITE" />
+   </children>
+</AnchorPane>

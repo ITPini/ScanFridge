@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAdd">
+   <children>
+      <Rectangle fill="#313131" height="600.0" stroke="TRANSPARENT" strokeType="INSIDE" width="335.0" />
+      <Rectangle fill="#414141" height="45.0" stroke="TRANSPARENT" strokeType="INSIDE" width="335.0" />
+      <TextField floatText="Indtast stregkode" layoutX="84.0" layoutY="45.0" maxLength="13" AnchorPane.leftAnchor="84.0" AnchorPane.rightAnchor="84.0" AnchorPane.topAnchor="45.0" />
+      <DatePicker layoutX="71.0" layoutY="123.0" />
+   </children>
+</AnchorPane>
